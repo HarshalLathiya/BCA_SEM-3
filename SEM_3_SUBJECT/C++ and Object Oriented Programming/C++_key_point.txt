@@ -1,0 +1,341 @@
+one-mark questions answers for C++ : Lathiya Harshal.
+
+1. What is a class in C++?
+   A class is a user-defined data type that serves as a blueprint for creating objects, bundling data and methods together.
+
+2. What is an object in C++? 
+   An object is an instance of a class that can hold data and functions.
+
+3. What is a constructor in C++?  
+   A constructor is a special member function that initializes objects of a class when they are created.
+
+4. What is a destructor in C++?  
+   A destructor is a special member function that is automatically called when an object is destroyed to clean up resources.
+
+5. What is function overloading in C++?  
+   Function overloading allows multiple functions with the same name to have different parameter lists.
+
+6. What is inheritance in C++?  
+   Inheritance is a feature that allows a new class (derived class) to inherit properties and behaviors from an existing class (base class).
+
+7. What is polymorphism in C++?  
+   Polymorphism allows functions or methods to behave differently based on the object or data type they are acting upon, achieved through function overloading and overriding.
+
+8. What is a pointer in C++? 
+   A pointer is a variable that stores the memory address of another variable.
+
+9. What is a reference variable in C++? 
+   A reference variable is an alias for another variable and is created using the `&` symbol.
+
+10. What is encapsulation in C++?  
+    Encapsulation is the concept of wrapping data and functions into a single unit (class) and restricting access to certain components.
+
+11.What is abstraction in C++? 
+    Abstraction is the process of hiding the internal implementation details and showing only the essential features to the user.
+
+12. What is the scope resolution operator in C++? 
+    The scope resolution operator `::` is used to define a function outside a class or access global variables.
+
+13. What is the use of `this` pointer in C++? 
+    The `this` pointer points to the current object of the class and is used to access members of that object.
+
+14. What is a friend function in C++?  
+    A friend function is a function that is not a member of a class but can access the class's private and protected members.
+
+15. What is the difference between `struct` and `class` in C++?  
+    By default, members of a `struct` are public, while members of a `class` are private.
+
+16. What is dynamic memory allocation in C++?  
+    Dynamic memory allocation is the process of allocating memory during runtime using `new` and deallocating it using `delete`.
+
+17. What is an inline function in C++?  
+    An inline function is a function where the compiler replaces the function call with the actual code of the function to reduce overhead.
+
+18. What is the default access specifier for class members in C++?  
+    The default access specifier for class members is `private`.
+
+19. What are virtual functions in C++?  
+    Virtual functions allow the derived class to override the base class function, enabling runtime polymorphism.
+
+20. What is a pure virtual function in C++?  
+    A pure virtual function is a function with no definition in the base class and must be overridden in derived classes, making the base class abstract.
+
+21. What is a namespace in C++? 
+    A namespace is a declarative region that provides scope to the identifiers (variables, functions) inside it, preventing name conflicts.
+
+22. What is the significance of the `main()` function in C++? 
+    The `main()` function is the entry point of any C++ program; execution starts from this function.
+
+23. What is a copy constructor in C++?  
+    A copy constructor is a special constructor used to create a new object as a copy of an existing object.
+
+24. What is operator overloading in C++?  
+    Operator overloading allows C++ operators to be redefined and used for user-defined types like classes.
+
+25. What is the difference between `new` and `malloc()` in C++?  
+    `new` is a C++ operator that allocates memory and calls the constructor, while `malloc()` is a C function that only allocates memory without calling constructors.
+
+26. What is `static` keyword in C++?  
+    The `static` keyword can be used with variables and functions to retain their value between function calls or to make class members shared among all objects.
+
+27. What is the difference between pass-by-value and pass-by-reference in C++? 
+    In pass-by-value, a copy of the variable is passed to the function, whereas in pass-by-reference, the actual variable is passed, allowing modification.
+
+28. What is a virtual destructor in C++?
+    A virtual destructor ensures that when a base class pointer points to a derived class object, the correct destructor is called, avoiding resource leaks.
+
+29. What is type casting in C++?  
+    Type casting is the conversion of one data type to another, either implicitly or explicitly using casting operators like `static_cast`, `dynamic_cast`, `const_cast`, and `reinterpret_cast`.
+
+30. What is the difference between `==` and `=` in C++?
+    `==` is the comparison operator that checks equality, while `=` is the assignment operator that assigns a value to a variable.
+
+31. What is a template in C++?  
+    A template is a feature in C++ that allows functions and classes to operate with generic types, making them type-independent.
+
+32. What is the difference between function overloading and function overriding in C++?  
+    Function overloading is defining multiple functions with the same name but different parameters, while function overriding occurs when a derived class provides its own implementation of a base class function.
+
+33. What is the use of `const` keyword in C++?  
+    The `const` keyword is used to declare variables, pointers, or function arguments as constant, meaning their value cannot be modified after initialization.
+
+34. What is the difference between shallow copy and deep copy in C++?  
+    Shallow copy duplicates the object's memory addresses (pointers), while deep copy duplicates both the object and the memory it points to, preventing shared references.
+
+35. What is the difference between `public`, `private`, and `protected` access specifiers in C++?  
+    - `public`: Members are accessible from outside the class.
+    - `private`: Members are accessible only within the class.
+    - `protected`: Members are accessible within the class and derived classes.
+
+36. What are manipulators in C++?  
+    Manipulators are functions used to modify the input/output stream properties, like `endl` for a new line and `setw` for setting the width.
+
+37. What is an abstract class in C++?  
+    An abstract class is a class that cannot be instantiated and contains at least one pure virtual function.
+
+38. What is the difference between `break` and `continue` statements in C++? 
+    `break` exits the loop entirely, while `continue` skips the current iteration and proceeds with the next iteration of the loop.
+
+39. What is recursion in C++?  
+    Recursion is a process where a function calls itself directly or indirectly, typically used for problems that can be broken down into smaller, similar subproblems.
+
+40. What is the use of `enum` in C++?  
+    `enum` (enumeration) is a user-defined data type that assigns names to integral constants, improving code readability.
+
+41. What is a function prototype in C++?  
+    A function prototype declares a function's return type, name, and parameters to the compiler before its actual definition.
+
+42. What is `sizeof` operator in C++?  
+    The `sizeof` operator returns the size, in bytes, of a variable or data type.
+
+43. What is the difference between pre-increment (`++i`) and post-increment (`i++`) in C++? 
+    Pre-increment increases the value before using it, while post-increment uses the value first and then increases it.
+
+44. What is the use of `friend` class in C++?  
+    A `friend` class can access private and protected members of another class in which it is declared as a friend.
+
+45. What is exception handling in C++?  
+    Exception handling is a mechanism to handle runtime errors using `try`, `catch`, and `throw` blocks.
+
+46. What is the use of `goto` statement in C++?  
+    The `goto` statement is used for unconditional jumps to a labeled part of the program, but its use is generally discouraged due to readability concerns.
+
+47. What is a null pointer in C++?
+    A null pointer is a pointer that does not point to any object or function, typically represented by the constant `nullptr`.
+
+48. What is the use of `typeid` operator in C++?  
+    The `typeid` operator is used to determine the type of an object at runtime, often used in conjunction with RTTI (Run-Time Type Information).
+
+49. What is meant by binding in C++? 
+    Binding refers to the process of associating a function call with a function definition. It can be either static (early) or dynamic (late) binding.
+
+50. What is the difference between `exit()` and `return` in C++?  
+    `exit()` terminates the program immediately, while `return` exits from the current function, passing control back to the caller.
+
+~> important C++ blanks (fill-in-the-blanks) questions.
+
+1. The basic building block of a C++ program is a ________.
+   - Answer: function
+
+2. A function must have a return type, the most common one is ________ for functions that do not return any value.
+   - Answer:`void`
+
+3. The keyword used to define a class in C++ is ________.
+   - Answer: `class`
+
+4. The ________ operator is used to allocate memory dynamically in C++.
+   - Answer: `new`
+
+5. The process of binding together code and data in a single unit is called ________.
+   - Answer: encapsulation
+
+6. A special function that is automatically called when an object is created is called a ________.
+   - Answer: constructor
+
+7. A pointer stores the ________ of a variable.
+   - Answer: address
+
+8. The operator used to access members of a class through a pointer is ________.
+   - Answer: `->` (arrow operator)
+
+9. When a class inherits members of another class, the ________ keyword is used.
+   - Answer: `public` (or `protected`, `private`, depending on access control)
+
+10. The ability of different objects to respond to the same function call in different ways is called ________.
+    - Answer: polymorphism
+
+11. The ________ keyword is used to prevent inheritance of a class.
+    - Answer: `final`
+
+12. An array of characters that ends with a null character `'\0'` is called a ________.
+    - Answer: string
+
+13. In C++, the ________ operator is used to release dynamically allocated memory.
+    - Answer: `delete`
+
+14. ________ are user-defined data types that hold multiple values of different types.
+    - Answer: structures or `struct`
+
+15. A function defined inside a class is by default a ________ function.
+    - Answer:inline
+
+16. A member function that does not modify any data members of a class should be declared as ________.
+    - Answer:`const`
+
+17. The ________ function in C++ is called when an object is destroyed or goes out of scope.
+    - Answer: destructor
+
+18. The ________ access specifier allows members of a class to be accessed only from within the same class.
+    - Answer: `private`
+
+19. A class is a blueprint for creating ________.
+    - Answer: objects
+
+20. The ________ operator is used to get the reference of a variable.
+    - Answer: `&` (address-of operator)
+
+21. In C++, the ________ keyword is used to inherit properties from another class.
+    - Answer: `class` (or `struct`, depending on the context)
+
+22. A function that is declared with the same name but different arguments is said to be ________.
+    - Answer: overloaded (function overloading)
+
+23. The ________ loop is guaranteed to execute at least once.
+    - Answer: `do-while`
+
+24. The standard input stream in C++ is represented by ________.
+    - Answer:`cin`
+
+25. The ________ keyword is used to stop the execution of a loop.
+    - Answer: `break`
+
+26. To define a constant value in C++ that cannot be changed, the ________ keyword is used.
+    - Answer:`const`
+
+27. A function that calls itself is known as a ________ function.
+    - Answer: recursive
+
+28. The ________ directive is used to include header files in C++.
+    - Answer: `#include`
+
+29. ________ is a special kind of constructor that copies values from one object to another.
+    - Answer: Copy constructor
+
+30. The ________ operator is used to access the elements of an array.
+    - Answer: subscript operator (`[]`)
+
+31. When the derived class has multiple base classes, it is called ________ inheritance.
+    - Answer: multiple
+
+32. In C++, ________ is the keyword used to handle exceptions.
+    - Answer: `try`
+
+33. The ________ keyword is used to ensure that a block of code is always executed, regardless of whether an exception is thrown.
+    - Answer: `finally` (in some languages), but in C++, it's **`catch`** after `try` for exception handling.
+
+34. The ________ operator is used to test if two objects are equal.
+    - Answer:equality operator (`==`)
+
+35. The ________ keyword is used to define a function that can be overridden in a derived class.
+    - Answer: `virtual`
+
+true or false :
+
+1. C++ is a procedure-oriented programming language.  
+   Answer: False (C++ is primarily an object-oriented programming language, although it supports procedure-oriented programming.)
+
+2. In C++, the keyword `class` is used to define a class.  
+   Answer: True
+
+3.  C++ supports multiple inheritance.  
+   Answer: True
+
+4. The `new` keyword is used to allocate memory dynamically in C++.  
+   Answer: True
+
+5. : C++ does not support operator overloading.  
+   Answer: False (C++ supports operator overloading.)
+
+6. : A constructor can have a return type in C++.  
+   Answer: False (Constructors do not have a return type.)
+
+7. : C++ allows the use of templates.  
+   Answer: True
+
+8.  In C++, every function must have a return type, including `void` functions.  
+   Answer: True
+
+9.  C++ has garbage collection built into the language.  
+   Answer: False (C++ does not have automatic garbage collection; it requires manual memory management.)
+
+10. A virtual function in C++ can be declared in a class but cannot be overridden in a derived class.  
+   Answer: False (Virtual functions can be overridden in derived classes.)
+
+~>Additional information:
+
+C++ is an object oriented programming language.
+
+C++ is developed by Bjarne Stroustrup at 
+AT&T Bell Laboratories in1980's
+
+There are 32 + 31 = 63 keywords in C++.
+
+Nesting of member functions: A member function can be called by using its name inside another member function of the same class is known as nesting of member functions.
+
+Nested function : A function that include one or more function inside of it.
+
+Copy Constructor : A copy constructor is a constructor which is used 
+to create a new object from an existing object.
+
+Containership :one class contain the object of another class.
+
+sign name's :
+
+‘>>’ is known as ‘extraction operator’
+‘<<’ is known as ‘insertion operator’ 
+‘::’ is known as ‘Scope resolution operator ’
+‘.’ is known as ‘Dot operator ’	
+(~) is known as ‘tilde’ 
+(?:) is known as ‘ternary operator’
+
+full forms :
+
+CAM=computer-aided manufacturing 
+CAD=computer-aided design 
+GUI=Graphical User Interface
+CIN=Console Input
+COUT=Console output
+UDF=User defined functions 
+SETW=Set width
+ENDL=End line
+ARGC=Argument Count
+ARGV=Argument vector(array)
+MIL=Member Initialization List
+RTTI=Run Time Type Identification
+
+
+
+
+
+
+

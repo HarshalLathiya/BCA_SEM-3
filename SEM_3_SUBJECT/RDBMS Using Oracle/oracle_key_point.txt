@@ -1,0 +1,467 @@
+one-mark questions and answers for Oracle: : Lathiya Harshal
+
+1. What is Oracle?
+   - Oracle is a relational database management system (RDBMS) developed by Oracle Corporation.
+
+2. What is an Oracle instance?
+   - An Oracle instance is a combination of the background processes and memory structures used to manage a database.
+
+3. What is the default extension for an Oracle SQL*Plus script file?
+   - The default extension is `.sql`.
+
+4.What command is used to retrieve data from an Oracle database?
+   -  The `SELECT` command.
+
+5.What is a schema in Oracle?
+   - A schema is a collection of database objects owned by a user.
+
+6.What is a synonym in Oracle?
+   - A synonym is an alias for a database object like a table or a view.
+
+7. What is PL/SQL?
+   - PL/SQL is Oracle's Procedural Language extension to SQL, allowing for procedural programming constructs.
+
+8.What is the purpose of the `WHERE` clause in SQL?
+   - The `WHERE` clause is used to filter records that meet specific conditions.
+
+9.What is a primary key?
+   - A primary key is a unique identifier for a record in a table that cannot be null.
+
+10.What is the `DUAL` table in Oracle?
+    - `DUAL` is a dummy table used to select a value without querying an actual table.
+
+11.What does the `NVL` function do in Oracle?
+    -  The `NVL` function replaces `NULL` values with a specified value.
+12.What is a cursor in Oracle?
+    -A cursor is a pointer that controls the context area where SQL statements are executed.
+
+13.What is the use of the `COMMIT` statement?
+    - The `COMMIT` statement saves all changes made during the transaction to the database.
+
+14.What is a sequence in Oracle?
+    -A sequence is a database object used to generate unique numbers.
+
+15.What is the purpose of the `JOIN` operation?
+    - The `JOIN` operation is used to combine rows from two or more tables based on a related column.
+
+16.What does the `GROUP BY` clause do?
+    - The `GROUP BY` clause groups rows that have the same values into summary rows.
+
+17.What is a `VIEW` in Oracle?
+    -A `VIEW` is a virtual table based on the result of an SQL query.
+
+18. What is a foreign key?
+    - A foreign key is a column or set of columns that establishes a link between the data in two tables.
+
+19.What is a `TRIGGER` in Oracle?
+    - : A `TRIGGER` is a set of PL/SQL statements that execute automatically in response to certain events on a table or view.
+
+20.What is a rollback?
+    - A rollback undoes changes made during the current transaction that have not been committed.
+
+21.What is the maximum size of a VARCHAR2 column in Oracle?
+   - 4000 bytes.
+
+22. What is the purpose of the `ALTER` command in SQL?
+   - The `ALTER` command is used to modify the structure of a database object like a table or a column.
+
+23.What is the difference between `DELETE` and `TRUNCATE`?
+   - `DELETE` removes rows one at a time and can be rolled back, while `TRUNCATE` removes all rows from a table and cannot be rolled back.
+
+24.What is an index in Oracle?
+   - An index is a schema object used to speed up the retrieval of rows by using pointers.
+
+25.What is an Oracle SID?
+   - Oracle SID (System Identifier) is a unique name that identifies a specific Oracle database instance.
+
+26.What does the `DROP` command do?
+   - The `DROP` command removes a table or other database object permanently from the database.
+
+27. What is a data type in Oracle?
+   - A data type defines the kind of value that can be stored in a column, such as `NUMBER`, `VARCHAR2`, `DATE`, etc.
+
+28.What is a `CHECK` constraint in Oracle?
+   - A `CHECK` constraint ensures that all values in a column meet a specific condition.
+
+29.What is the purpose of the `HAVING` clause?
+   - The `HAVING` clause is used to filter groups based on a specified condition, often used with `GROUP BY`.
+
+30.What is a transaction in Oracle?
+   - A transaction is a set of operations that are performed as a single unit of work.
+
+31.What is the difference between `CHAR` and `VARCHAR2` in Oracle?
+   -`CHAR` stores fixed-length data, while `VARCHAR2` stores variable-length data.
+
+32.What does the `IN` operator do in SQL?
+   - The `IN` operator is used to specify multiple values in a `WHERE` clause.
+
+33.What is a subquery in Oracle?
+   - A subquery is a query nested inside another query.
+
+34.What is the function of the `MERGE` statement in Oracle?
+   -The `MERGE` statement allows for conditional `INSERT`, `UPDATE`, or `DELETE` operations in a single statement.
+
+35. What is the `ROWNUM` pseudo-column?
+   -`ROWNUM` is a pseudo-column that assigns a unique number to each row returned by a query.
+
+36.What is a `BLOB` data type in Oracle?
+   - `BLOB` (Binary Large Object) is used to store large binary data such as images or multimedia files.
+
+37. What is the `LIKE` operator used for?
+   -The `LIKE` operator is used for pattern matching in a `WHERE` clause.
+
+38.What does `FETCH` do in PL/SQL?
+   - The `FETCH` statement retrieves rows from the result of a query associated with a cursor.
+
+39.What is Oracle's `FLASHBACK` feature?
+   - Oracle's `FLASHBACK` feature allows recovery of data to a previous point in time without using point-in-time recovery.
+
+40.What does the `SYSDATE` function return?
+   - The `SYSDATE` function returns the current date and time from the system.
+
+41.What is a sequence generator in Oracle?
+   -A sequence generator is used to generate sequential numeric values, often used for primary key values.
+
+42.What is the `DBMS_OUTPUT.PUT_LINE` command used for in PL/SQL?
+   -`DBMS_OUTPUT.PUT_LINE` is used to display output in PL/SQL.
+
+43.What is the `ROWID` in Oracle?
+   - `ROWID` is a pseudo-column that uniquely identifies a row in a table.
+
+44.What is a `SAVEPOINT` in Oracle?
+   - A `SAVEPOINT` allows a transaction to be partially rolled back to a specific point without rolling back the entire transaction.
+
+45. When was Oracle Corporation founded?
+   - Oracle Corporation was founded in 1977.
+
+46. Who were the founders of Oracle Corporation?
+   - Larry Ellison, Bob Miner, and Ed Oates.
+
+47. What was Oracle's first commercial product?
+   -  Oracle V2, released in 1979.
+
+48.When did Oracle go public?
+   - Oracle went public in 1986.
+
+49. What is Oracle's flagship database product known for?
+   -  Performance, scalability, and reliability.
+
+fill-in-the-blank questions :
+
+1. The ________ command is used to retrieve data from an Oracle database.  
+  = SELECT
+
+2. A ________ is a unique identifier for a record in a table.  
+ = primary key
+
+3. The ________ data type is used to store variable-length character strings in Oracle.  
+ = VARCHAR2
+
+4. ________ is a set of PL/SQL statements that execute automatically in response to certain events.  
+ = Trigger
+
+5. The ________ command permanently removes a table from the database.  
+= DROP
+
+6. A ________ is a collection of database objects owned by a user.  
+  = schema
+
+7. The ________ function returns the current date and time in Oracle.  
+   = SYSDATE
+
+8. A ________ table is a table that is automatically created and dropped by Oracle when a session ends.  
+  = temporary table
+
+9. The ________ clause is used to filter records that meet specific conditions in a SQL query.  
+  = WHERE
+
+10. ________ is a database object that stores the results of a query physically, improving performance.  
+ = Materialized view
+
+11. The ________ command is used to save changes made during a transaction to the database.  
+ = COMMIT
+
+12. A ________ constraint ensures that all values in a column meet a specific condition.  
+ = CHECK
+
+13. The ________ pseudo-column uniquely identifies a row in a table.  
+ = ROWID
+
+14. A ________ is a structure that improves the speed of data retrieval.  
+ = index
+
+15. ________ is Oracle's tool for managing and monitoring databases through a web interface.  
+= Oracle Enterprise Manager
+
+16. The ________ command is used to modify the structure of an existing database object.  
+ = ALTER
+
+17. The ________ command undoes changes made during the current transaction that have not been committed.  
+= ROLLBACK
+
+18. A ________ allows for conditional insert, update, or delete operations in a single statement.  
+= MERGE
+
+19. The ________ command combines the results of two or more SELECT statements.  
+= UNION
+
+20. The ________ feature allows you to restore the database to a previous state.  
+= FLASHBACK
+
+21. The ________ command is used to create a new table in an Oracle database.  
+= CREATE
+
+22. A ________ is a collection of data stored in a structured format in a database.  
+= table
+
+23. The ________ command is used to modify existing records in a table.  
+= UPDATE
+
+24. A _____ constraint is used to ensure that a value in one column corresponds to a value in another column of a different table.  
+= foreign key
+
+25. The ________ command removes all records from a table but retains the structure for future use.  
+= TRUNCATE
+
+26. The ________ clause is used to specify the column by which the result set is sorted.  
+= ORDER BY
+
+27. The ________ keyword is used to retrieve unique values from a column.  
+= DISTINCT
+
+28. A ________ is a predefined function in SQL that performs a calculation on a set of values.  
+= aggregate function
+
+29. The ________ operator is used to check for a specific pattern in a string.  
+= LIKE
+
+30. A ________ is a named block of PL/SQL code that can accept parameters and perform a specific task.  
+= procedure
+
+31. The ________ clause groups rows that have the same values in specified columns.  
+= GROUP BY
+
+32. The ________ is a type of backup that captures the entire state of the database at a specific point in time.  
+= full backup
+
+33. The ________ command allows you to view the structure of a table.  
+= DESC (or DESCRIBE)
+
+34. A ________ is a SQL statement that can return multiple rows of data based on specific conditions.  
+=  query
+
+35. The ________ command is used to create an alias for a table or a column in a SQL statement.  
+= AS
+
+36. The ________ clause allows you to specify conditions for aggregated data.  
+= HAVING
+
+37. The ________ command is used to grant permissions on a database object to a user.  
+= GRANT
+
+38. A ________ is a temporary storage area in memory that holds data retrieved by a query.  
+= result set
+
+39. The ________ function is used to retrieve the highest value from a specified column.  
+= MAX
+
+40. The ________ function is used to retrieve the lowest value from a specified column.  
+= MIN
+
+41. A ________ is a structured collection of related data elements stored in a database.  
+= record
+
+42. The ________ function returns the number of rows that match a specified condition.  
+= COUNT
+
+43. A ________ is a mechanism for controlling concurrent access to a database.  
+= lock
+
+44. The ________ command is used to remove a view from the database.  
+= DROP VIEW
+
+45. The ________ keyword specifies the number of rows returned by a query.  
+= LIMIT (or FETCH FIRST)
+
+46. A ________ is a collection of related database objects such as tables, indexes, and views.  
+= schema
+
+47. The ________ function is used to concatenate two or more strings in SQL.  
+=  CONCAT
+
+48. The ________ command is used to retrieve data from one or more tables based on a join condition.  
+= SELECT
+
+49. A ________ is a collection of procedures and functions stored in the database for reuse.  
+= package
+
+50. The ________ command is used to create an index on one or more columns of a table.  
+= CREATE INDEX
+
+full forms :
+
+1. SQL – Structured Query Language  
+2. DML – Data Manipulation Language  
+3. DDL – Data Definition Language  
+4. DCL – Data Control Language  
+5. TCL – Transaction Control Language 
+6.BLOB – Binary Large Object
+7.CLOB – Character Large Object 
+8. RDBMS – Relational Database Management System  
+9. DBMS – Database Management System 
+10.PL/SQL – Procedural Language / Structured Query Language
+
+important SQL queries in Oracle,
+
+1. Select All Records
+= SELECT * FROM table_name;
+
+2. Select Specific Columns
+=SELECT column1, column2 FROM table_name;
+
+3. Where Clause
+=SELECT * FROM table_name WHERE condition;
+
+4. Order By
+=SELECT * FROM table_name ORDER BY column_name ASC; -- Ascending
+=SELECT * FROM table_name ORDER BY column_name DESC; -- Descending
+
+5. Count Records
+=SELECT COUNT(*) FROM table_name;
+
+6. Distinct Values
+=SELECT DISTINCT column_name FROM table_name;
+
+ 7. Insert a Record
+=INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+
+ 8. Update a Record
+=UPDATE table_name SET column1 = value1 WHERE condition;
+
+9. Delete a Record
+=DELETE FROM table_name WHERE condition;
+
+10. Group By
+=SELECT column_name, COUNT(*) FROM table_name GROUP BY column_name;
+
+11. Join Two Tables
+SELECT a.column1, b.column2
+FROM table1 a
+JOIN table2 b ON a.common_column = b.common_column;
+
+ 12. Subquery
+SELECT column1
+FROM table_name
+WHERE column2 = (SELECT column2 FROM another_table WHERE condition);
+
+13. Use of Aliases
+SELECT column1 AS alias_name FROM table_name;
+
+
+14. Limit Rows (Using ROWNUM)
+SELECT * FROM table_name WHERE ROWNUM <= n; -- n is the number of rows you want
+
+
+15. Using LIKE for Pattern Matching
+SELECT * FROM table_name WHERE column_name LIKE 'pattern%'; -- % for wildcard
+
+16. Using BETWEEN for Range Queries
+=SELECT * FROM table_name WHERE column_name BETWEEN value1 AND value2;
+
+17. Using IN for Multiple Values
+=SELECT * FROM table_name WHERE column_name IN (value1, value2, value3);
+
+Using IS NULL
+=SELECT * FROM table_name WHERE column_name IS NULL;
+
+19. Using CASE Statement
+SELECT column1,
+       CASE
+           WHEN condition1 THEN 'Result1'
+           WHEN condition2 THEN 'Result2'
+           ELSE 'OtherResult'
+       END AS alias_name
+FROM table_name;
+
+20. Using Aggregate Functions
+- **SUM:**
+SELECT SUM(column_name) FROM table_name;
+
+- **AVG:**
+SELECT AVG(column_name) FROM table_name;
+
+- **MAX:**
+SELECT MAX(column_name) FROM table_name;
+
+- **MIN:**
+SELECT MIN(column_name) FROM table_name;
+
+Using GROUP BY with HAVING Clause
+SELECT column_name, COUNT(*) 
+FROM table_name 
+GROUP BY column_name 
+HAVING COUNT(*) > value;
+
+22. Using JOIN Types
+- **Left Join:**
+SELECT a.column1, b.column2
+FROM table1 a
+LEFT JOIN table2 b ON a.common_column = b.common_column;
+
+- **Right Join:**
+SELECT a.column1, b.column2
+FROM table1 a
+RIGHT JOIN table2 b ON a.common_column = b.common_column;
+
+- **Full Outer Join:**
+SELECT a.column1, b.column2
+FROM table1 a
+FULL OUTER JOIN table2 b ON a.common_column = b.common_column;
+
+23. Using UNION to Combine Results
+SELECT column1 FROM table1
+UNION
+SELECT column1 FROM table2;
+
+24. Using UNION ALL to Include Duplicates
+SELECT column1 FROM table1
+UNION ALL
+SELECT column1 FROM table2;
+
+25. Using ROW_NUMBER for Row Numbering
+SELECT column1, ROW_NUMBER() OVER (ORDER BY column2) AS row_num
+FROM table_name;
+
+26. Using TRUNC to Format Dates
+SELECT TRUNC(date_column) FROM table_name; -- Truncates the time part of a date
+
+27. Using SYSDATE for Current Date and Time
+SELECT SYSDATE FROM dual; -- dual is a dummy table in Oracle
+
+28. Using TO_CHAR for Formatting Dates
+SELECT TO_CHAR(date_column, 'DD-MM-YYYY') FROM table_name;
+
+29. Using TO_DATE to Convert String to Date
+SELECT TO_DATE('2024-10-21', 'YYYY-MM-DD') FROM dual;
+
+30. Using NVL for Null Value Replacement
+SELECT NVL(column_name, 'Default Value') FROM table_name;
+
+Using CONCAT for String Concatenation
+SELECT CONCAT(column1, column2) AS full_name FROM table_name;
+
+32. Using SUBSTR for String Substring
+SELECT SUBSTR(column_name, start_position, length) FROM table_name;
+
+33. Using LENGTH to Get String Length
+SELECT LENGTH(column_name) FROM table_name;
+
+34. Using EXISTS for Subquery Check
+SELECT column1 
+FROM table_name a 
+WHERE EXISTS (SELECT 1 FROM table_name b WHERE condition);
+
+35. Using ROWNUM with Order By
+SELECT * FROM (SELECT * FROM table_name ORDER BY column_name) WHERE ROWNUM <= n; 
+
+
