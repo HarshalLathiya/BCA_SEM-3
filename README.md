@@ -1,7 +1,6 @@
-C++ and Object-Oriented Programming 4 
-RDBMS Using Oracle 4 
-Content Management System Using Wordpress 4 
-Practical Based on CS -15, CS -16, CS -17 4 
-Open Source Tools 2 
-Network Technology and Administration 2 
-Constitutional Values and Fundamental Duties 
+C++ and Object-Oriented Programming.
+RDBMS Using Oracle.
+Content Management System Using Wordpress.
+Open Source Tools.
+Network Technology and Administration.
+Constitutional Values and Fundamental Duties. 
