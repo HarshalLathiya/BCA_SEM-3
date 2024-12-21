@@ -1,5 +1,6 @@
 #include<iostream.h>
 #include<conio.h>
+//write a C++ program for class to basic type conversation.
 class bca
 {
 	int num;

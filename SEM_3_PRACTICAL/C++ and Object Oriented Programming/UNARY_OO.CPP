@@ -1,34 +1,34 @@
 #include<iostream.h>
 #include<conio.h>
-//unary operator over loading.
-class syb
+// Unary operator overloading.
+class bca
 {
-	private:
-		int x;
 	public:
-	friend	syb operator +(syb);
-	void show()
+	int pub;
+
+	void fun()
 	{
-		cout<<endl<<"Value of X is:"<<x;
+		cout << endl << "Final value of pub is : " << pub;
 	}
-	void operator -()
+
+	// Overloading the unary minus (-) operator
+	bca operator -()
 	{
-		x=-x;
+		bca temp;
+		temp.pub = -pub;  // Negate the value of x
+		return temp;
 	}
 };
-	syb operator +(syb o)//friend fun outside of the class
-	{
-		o.x=+10;
-		cout<<endl<<"Operator overloading:"<<o.x;
-		return o;//object return
-	}
+
 void main()
 {
 	clrscr();
-	syb obj;//object creation
-	obj=+obj;
-	obj.show();
-	-obj;
-	obj.show();
+	bca obj1, obj2;
+	obj1.pub = 10;
+	obj2 = -obj1; // Unary operator overloading
+
+	cout << endl << "Original value of obj.pub: " << obj1.pub;
+	cout << endl << "Negated value in obj1.pub: " << obj2.pub;
+	obj2.fun();
 	getch();
 }
