@@ -1,4 +1,4 @@
-All Subject's of sem 3
+All Subject' sem 3
 C++ and Object-Oriented Programming. 
 RDBMS Using Oracle.
 Content Management System Using Wordpress.
