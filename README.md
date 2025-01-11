@@ -4,4 +4,3 @@ Content Management System Using Wordpress.
 Open Source Tools.
 Network Technology and Administration.
 Constitutional Values and Fundamental Duties.
-Thank You
